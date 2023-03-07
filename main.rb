@@ -1,6 +1,8 @@
 require './Game'
-require './player'
+require './Player'
 require './Question'
 
+start = Game.new
 
+start.game_start
 
